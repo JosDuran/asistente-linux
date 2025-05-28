@@ -25,3 +25,7 @@ pip freeze > requirements.txt
 
 Language: Python
 Library: SentenceTransformer all-MiniLM-L6-v2
+
+Screenshot
+![image](https://github.com/user-attachments/assets/e5ef8cf6-a39f-4ffd-a13b-f0be43c7ff71)
+
