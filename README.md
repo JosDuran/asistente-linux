@@ -27,6 +27,7 @@ Language: Python
 Library: SentenceTransformer all-MiniLM-L6-v2
 
 Screenshot
-![image](https://github.com/user-attachments/assets/86035dd5-ccd4-42f3-8419-8df2c837329e)
+![image](https://github.com/user-attachments/assets/2a80317d-081d-408a-a07e-82f48734f511)
+
 
 
