@@ -30,5 +30,8 @@ Screenshot
 
 ![image](https://github.com/user-attachments/assets/2a80317d-081d-408a-a07e-82f48734f511)
 
+Nota: Si quiere regenerar los vectores, elimine el archivo vectores.npy de la carpeta data.
+Nota2: Este programa no requiere GPU pero se desempeña mejor en una maquina con gpu.
+
 
 
