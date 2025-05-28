@@ -1,0 +1,20 @@
+#!/bin/bash
+pregunta="$*"
+output=$(curl -s -X POST http://localhost:8000/preguntar \
+  -H "Content-Type: application/json" \
+  -d "{\"texto\": \"$pregunta\"}")
+
+comando=$(echo "$output" | jq -r '.comando')
+tiempo=$(echo "$output" | jq -r 'def round2(x): ((x*100)|round)/100; round2(.ti>
+probabilidad=$(echo "$output" | jq -r 'def round2(x): ((x*100)|round)/100; roun>
+
+echo ""
+echo "$comando"
+echo "--------------------------------------------"
+echo ""
+echo "⏱️  $tiempo s  –  📊 Probabilidad: $probabilidad %"
+echo "--------------------------------------------"
+
+# Copiar el comando al portapapeles
+echo -n "$comando" | xclip -selection clipboard
+echo "[El comando ha sido copiado al portapapeles]"

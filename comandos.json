@@ -1,0 +1,72 @@
+[
+  {
+    "titulo": "crear entorno virtual",
+    "comando": "python3 -m venv {nombre}"
+  },
+  {
+    "titulo": "activar entorno virtual",
+    "comando": "source {nombre}/bin/activate"
+  },
+  {
+    "titulo": "borrar carpeta",
+    "comando": "rm -rf {carpeta}"
+  },
+  {
+    "titulo": "ver archivos",
+    "comando": "ls"
+  },
+  {
+    "titulo": "instalar librería",
+    "comando": "pip install {libreria}"
+  },
+  {
+    "titulo": "inicializar git",
+    "comando": "git init"
+  },
+  {
+    "titulo": "primer commit",
+    "comando": "git commit -m \"{mensaje}\""
+  },
+  
+  {
+    "titulo": "conectar a un servidor ssh",
+    "comando": "ssh usuario@servidor"
+  },
+  
+  {
+    "titulo": "crear un proyecto de django",
+    "comando": "django-admin startproject nomproy"
+  },
+  {
+    "titulo": "crear una app de django",
+    "comando": "python3 manage.py startapp nomapp"
+  },
+  {
+    "titulo": "generar el archivo de migracion django",
+    "comando": "python3 manage.py makemigrations tareas"
+  },
+  {
+    "titulo": "aplicar el archivo de migracion django",
+    "comando": "python3 manage.py migrate"
+  },
+  {
+    "titulo": "levantar el proyecto django 8000",
+    "comando": "python3 manage.py runserver"
+  },
+  {
+    "titulo": "instalar las librerias de requirements.txt en el entorno virtual",
+    "comando": "pip install -r requirements.txt"
+  },
+   {
+    "titulo": "generar el archivo requirements.txt",
+    "comando": "pip freeze > requirements.txt"
+  },
+  {
+    "titulo": "generar el build del docker compose sin utilizar el cache",
+    "comando": "docker-compose build --no-cache"
+  },
+  {
+    "titulo": "desinstalar un paquete linux",
+    "comando": "sudo apt remove paquete_linux"
+  }
+]

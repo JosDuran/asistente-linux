@@ -1,0 +1,2 @@
+Este es el programa que todo novato en linux anhela tener.
+Es como un asistente que me recuerda comandos linux (yo se los doy previamente en un archivo)    entonces cuando le pido que me haga recordar un comando para tal cosa me entiende y me da la respuesta, usa un modelo que sabe emparejar preguntas con respuestas, es ligero, corre localmente, eco friendly, es para usar desde el terminal.
