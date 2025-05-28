@@ -14,7 +14,7 @@ Asistente linux que te recuerda los comandos que necesites, funciona desde termi
 4. sudo apt install jq xclip
 5. dele una pregunta al asistente, por ejemplo:
 
-prompt: como genero el requirements?
+prompt: asistente como genero el requirements?
 
 pip freeze > requirements.txt
 --------------------------------------------
