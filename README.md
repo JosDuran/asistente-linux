@@ -1,7 +1,7 @@
 # asistente-linux
 Asistente linux que te recuerda los comandos que necesites, funciona desde terminal, usa un modelo de Sentence Transformers para emparejar preguntas con respuestas.
 
-0. edit commands.txt as needed
+0. Editar commands.txt segun su necesidad
 1. docker build -t assistant .
 2. docker run -d \
   -v $(pwd)/data:/app/data \
@@ -12,9 +12,9 @@ Asistente linux que te recuerda los comandos que necesites, funciona desde termi
 
 3. sudo cp assistant /usr/local/bin/
 4. sudo apt install jq xclip
-5. run a query, for example:
+5. dele una pregunta al asistente, por ejemplo:
 
-prompt: how to generate requirements?
+prompt: como genero el requirements?
 
 pip freeze > requirements.txt
 --------------------------------------------
