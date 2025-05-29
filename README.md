@@ -1,5 +1,5 @@
 # asistente-linux
-Asistente linux que te recuerda los comandos que necesites, funciona desde terminal, usa un modelo de Sentence Transformers para emparejar preguntas con respuestas.
+Asistente linux que te recuerda los comandos que necesites, funciona desde terminal, usa un modelo de Sentence Transformers para emparejar preguntas con descripciones de respuestas (las respuestas son los comandos).
 
 0. Editar commands.txt segun su necesidad
 1. docker build -t assistant .
